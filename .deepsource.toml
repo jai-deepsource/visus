@@ -1,0 +1,9 @@
+version = 1
+
+exclude_patterns = ["examples/**"]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/cockroachlabs/visus"
